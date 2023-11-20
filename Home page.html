@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>ABC BookStore</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="img_Practice3\logoABCbook.png" alt="logo" />
+    </div>
+    <div class="links">
+      <a href="Login.html"><i class="fa fa-user fa-2x" aria-hidden="true"></i> <b>Login |</b></a>
+      <a href="D:\University\CSE 307\Lab4\CSE307_Lab4\Register.html"><b>Registration</b></a>
+      <a href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i><b>Cart</b></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="btn-toolbar" role="toolbar">
+      <div class="menu">
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn btn-primary" style="background-color: green;"> <a
+              href="D:\University\CSE 307\Lab4\CSE307_Lab4\Problem4.html">Home Page</a></button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn btn-primary" style="background-color: green;"><a
+              href="D:\University\CSE 307\Lab4\CSE307_  Lab4\Homepage.html">Inroduction</a></button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic outlined example"><button type="button"
+            class="btn btn-primary" style="background-color: green;"><a href="#">Contact</a></button></div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false" style="background-color: green;">
+            BOOKS BY SUBJECT
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="#">Foreign language</a></li>
+            <li><a class="dropdown-item" href="#">Information</a></li>
+            <li><a class="dropdown-item" href="#">Law</a></li>
+            <li><a class="dropdown-item" href="#">Literature</a></li>
+            <li><a class="dropdown-item" href="#">Science and technology</a></li>
+            <li><a class="dropdown-item" href="#">Agriculture</a></li>
+            <li><a class="dropdown-item" href="#">History of geography</a></li>
+            <li><a class="dropdown-item" href="#">Economics</a></li>
+            <li><a class="dropdown-item" href="#">Information</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="btn-group dropend">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+          style="background-color: green;">
+          BOOKS BY PUBLISHERS
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Young publishers</a></li>
+          <li><a class="dropdown-item" href="#">Statics Publishing House</a></li>
+          <li><a class="dropdown-item" href="#">Bronze needle</a></li>
+          <li><a class="dropdown-item" href="#">National University</a></li>
+          <li><a class="dropdown-item" href="#">Artistic craft culture</a></li>
+          <li><a class="dropdown-item" href="#">Culture</a></li>
+          <li><a class="dropdown-item" href="#">History of geography</a></li>
+          <li><a class="dropdown-item" href="#">Labor - society</a></li>
+          <li><a class="dropdown-item" href="#">Science & Engineering</a></li>
+        </ul>
+      </div>
+      <div class="search" style="margin-right: 50px;">
+        <input type="text" size="30px" name="search-input" id="search-input"
+          placeholder="Enter the title of the book..." required />
+        <input style="background-color: green;border-top-right-radius: 10px;" type="submit" name="search-button"
+          id="search-button" value="Find books" required />
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </nav>
+
+  <div id="body">
+    <article>
+      <aside id="left">
+        <div>
+          <p>BOOKS BY SUBJECT</p>
+          <ul>
+            <li><a href="">Foreign language</a></li>
+            <li><a href="">Information</a></li>
+            <li><a href="">Law</a></li>
+            <li><a href="">Literature</a></li>
+            <li><a href="">Science and technology</a></li>
+            <li><a href="">Agriculture</a></li>
+            <li><a href="">History of geography</a></li>
+            <li><a href="">Economics</a></li>
+            <li><a href="">Listen to the song</a></li>
+          </ul>
+        </div>
+        <div>
+          <p>BOOKS BY PUBLISHERS</p>
+          <ul>
+            <li><a href="">Young publishers</a></li>
+            <li><a href="">Statics Publishing House</a></li>
+            <li><a href="">Bronze needle</a></li>
+            <li><a href="">National University</a></li>
+            <li><a href="">Artistic craft culture</a></li>
+            <li><a href="">Culture</a></li>
+            <li><a href="">History of geography</a></li>
+            <li><a href="">Labor - society</a></li>
+            <li><a href="">Science & Engineering</a></li>
+          </ul>
+        </div>
+      </aside>
+      <section>
+        <form action="#">
+          <div>
+            <h4>GIÁO TRÌNH TIN HỌC CƠ BẢN</h4>
+            <div>
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item list-group-item-info"><img class="photo" src=" https://minhkhai.com.vn/hinhlon/136153.jpg" alt="Informatic-Book" /></li>
+                <li class="list-group-item list-group-item-info">
+                  <p>Tác giả: Phạm Công Anh</p>
+                  <p>Đồng tác giả: Lê Việt Nhân</p>
+                  <p>Hiệu đỉnh: Hồng Phúc</p>
+                  <p>Chủ biên: Qách Tuấn Ngọc</p>
+                  <br>
+                  <p>Nhà xuất bản: <b style="color: blue;">Nhà xuất bản trẻ</b></p>
+                  <p>Chủ đè: <b style="color: blue;">Triết học-Chính trị</b></p>
+                </li>
+              </ul>
+              <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  NỘI DUNG CUỐN SÁCH
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="noidung">
+                  <span>
+                    Tin học đại cương XP gồm có 7 chương
+                    <br>
+                    Chương 1: Một số vấn đề cơ bản
+                    <br>
+                    Chương 2: Sử dụng nhanh thanh công cụ và thanh thực đơn trong My Computer và Window Explorer
+                    <br>
+                    Chương 3: Các thao tác trong winodw XP
+                    <br>
+                    Chương 4: Các thiết lập trong winodw XP
+                    <br>
+                    Chương 5: Bảo trì máy tính
+                    <br>
+                    Chương 6: Các phím tắt
+                    <br>
+                    Chương 7: Hỏi và đáp các thắc mắc
+                    <br>
+                    Xin trân trọng giới thiệu cuốn sách cũng bạn
+
+                  </span>
+                </div>
+              </div>
+              <p>Xin trân trọng giới thiệu các cuốn sách cùng các bạn</p>
+              <p>Gía bán: <span style="color: red">26,000VNĐ/Cuốn</span><br /></p>
+              <a href="detailproduct.html">
+                <button style="background: none; border: none">
+                  <img src="https://yeutinhdau.com/wp-content/uploads/2017/03/icon-dat-mua.png"
+                    alt="dat icon-dat-mua" />
+                </button>
+              </a>
+              </p>
+            </div>
+          </div>
+
+        </form>
+
+
+      </section>
+      <aside id="right">
+        <div>
+          <h3>BESTSELLER</h3>
+          <marquee direction="up" scrollamount="6" onMouseMove="stop()" onMouseOut="start()" class="marquee">
+            <p>
+              <a href="#"><img src="img_Practice3\EnglishForTech.jpg" /> English For
+                Tech</a>
+            </p>
+            <br />
+            <p>
+              <a href=" #"><img src="img_Practice3\BARC.png" /> BABC Computer Science</a>
+            </p>
+            <br />
+            <p>
+              <a href=" #"><img src="img_Practice3\Davinci.png" /> The Davinci Code
+                Science</a>
+            </p>
+            <br />
+            <p>
+              <a href=" #"><img src="img_Practice3\harrypotter.png" /> Harry Potter</a>
+            </p>
+          </marquee>
+        </div>
+        <div id="website">
+          <h3>THE WEBSITE LINKS</h3>
+          <p>
+            <select id="yourSelect" name="yourSelect" required>
+              <option value="yourSelect">--- Select the linking ----</option>
+              <option value="">English For Tech</option>
+              <option value="">BABC Computer Science</option>
+              <option value="">The Davinci Code Science</option>
+              <option value="">Harry Potter</option>
+            </select>
+          </p>
+        </div>
+        <div id="access">
+          <h3>ACCESS STATISTICS</h3>
+          <p>Total Access: 500</p>
+          <p>Online: 3</p>
+        </div>
+      </aside>
+    </article>
+  </div>
+  <footer>
+    <div>
+      <p>&copy; 2023 Your Company Name</p>
+      <p>
+        Website is developed to be used as a hands-on exercise in Web
+        Programming
+      </p>
+      <p>Email: abcbookstore@gmail.com</p>
+    </div>
+  </footer>
+</body>
+
+</html>

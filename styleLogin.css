@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header .logo {
+    text-align: left;
+    width: 50%;
+  }
+  header .logo img {
+    width: 300px;
+  }
+  header .links {
+    text-align: right;
+    width: 50%;
+  }
+  header {
+    display: flex;
+    align-items: end;
+  }
+  header .links a {
+    text-decoration: underline;
+    color: black;
+  }
+  header .links a:hover {
+    color: #007acc;
+  }
+  header .links b {
+    color: blue;
+  }
+  nav {
+    background-color: white;
+    width: auto;
+    height: 40px;
+    border: 1px solid green;
+  }
+  
+  .search {
+    flex: 1;
+    align-items: center;
+    float: right;
+  }
+  nav .search input[type="text"] {
+    margin: 4px;
+  }
+  nav .search input[type="submit"] {
+    margin: 4px;
+  }
+  nav .menu ul {
+    padding: 5px;
+  }
+  
+  nav .menu li {
+    display: inline;
+    padding-right: 10px;
+  }
+  nav .menu a:hover {
+    text-decoration: underline;
+    color: skyblue;
+  }
+  nav .menu a {
+    text-decoration: none;
+  }
+  
+  div#body {
+    clear: both;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    box-shadow: 1 px;
+    margin-top: 15px;
+  }
+  article {
+    display: table-row;
+  }
+  aside#left,
+  aside#right,
+  section {
+    display: table-cell;
+    vertical-align: top;
+  }
+  aside#left {
+    width: 20%;
+  }
+  aside#right {
+    width: 20%;
+  }
+  .marquee {
+    height: 300px;
+  }
+  .marquee img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  aside#left div {
+    border: solid;
+    margin-right: 30px;
+    margin-bottom: 6px;
+  }
+  aside#left div p {
+    color: white;
+    background-color: #007acc;
+    border: 2px solid black;
+    width: auto;
+    text-align: center;
+  }
+  aside#left div ul li {
+    list-style-type: square;
+    margin-left: 30px;
+  }
+  aside#right div {
+    border: solid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  aside#right h3 {
+    color: white;
+    background-color: #007acc;
+    border: 2px solid black;
+    width: auto;
+    text-align: center;
+  }
+  aside#right div#website p {
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  aside#right div#access p {
+    height: 20px;
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #3fb550;
+    text-align: center;
+  }
+  
+  section h3 {
+    color: white;
+    background-color: #007acc;
+    border: 0px solid black;
+    width: auto;
+    text-align: center;
+  }
+  
+  section {
+    border-style: hidden;
+    width: 800px;
+    height: 550px;
+    font-size: 15px;
+    display: inline-table;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: #CFF4FC;
+  }
+ section input{
+    background-color: pink;
+ }
+  section div p {
+    padding: 8px;
+  }
+  section img {
+    width: 200px;
+    height: 250px;
+    margin-left : 40px;
+  }
+  section button img {
+    height: 30px;
+    margin-left: 500px;
+  }
+  p.firstparagraph {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
+  table.table1style tr td {
+    padding: 10px; 
+    width: 60%;
+  }
+  table.table2style tr td {
+    padding: 10px; 
+    width: 74%;
+  }
+  .centerstyle{
+    width: 500px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .regBut{
+    margin-left: 7%;
+  }
+  #name{
+    margin-left: 10px;
+  }
+  #day{
+    margin-left: 18px;
+  }
+  #male{
+    margin-left: 30px;
+  }
+  #address{
+    margin-left: 27px;
+  }
+  #phone{
+    margin-left: 9px;
+  }
+  #email{
+    margin-left: 42px;
+  }
+  #pass{
+    margin-left: 57px;
+  }
+  #user{
+    margin-left: 52px;
+  }

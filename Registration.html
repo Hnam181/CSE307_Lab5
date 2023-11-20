@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        .regBut{
+            margin-left: 35%;
+        }
+        #name{
+            margin-left: 10px;
+        }
+        #day{
+            margin-left: 18px;
+        }
+        #male{
+            margin-left: 30px;
+        }
+        #address{
+            margin-left: 27px;
+        }
+        #phone{
+            margin-left: 9px;
+        }
+        #email{
+            margin-left: 42px;
+        }
+        #pass{
+            margin-left: 57px;
+        }
+        #user{
+            margin-left: 52px;
+        }
+
+    </style>
+</head>
+<body>
+    <style>
+        body{
+            height: 370px;
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px;
+            border: 2px solid blue;
+        }
+    </style>
+    <form action="#" name="dangky" method="post">
+        <h3><center>MEMBER REGISTRATION</center></h3>
+        <table>
+            <fieldset>
+                <legend><b>Personal information</b></legend>
+                <label for="name">Full name: </label>
+                <input type="text" name="name" id="name" size="30" required>
+                <br>
+                <span>
+                    <label for="date">Birthday:</label>
+                
+                    <select name="day" id="day" required>
+                        <option value="1" selected>01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <label for="month">Month</label>
+                    <select name="" id="month">
+                        <option value="1" selected>01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select> 
+                    <label for="year">Year</label>
+                    <input type="text" name="" id="year"size=6>
+                </span>
+                <br>
+                <label>Gender</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Nam</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Nữ</label>
+                <br>
+                <label for="Address" style="height: 20px;">Address:</label><textarea name="Address" id="Address" cols="30" rows="4"></textarea>
+                <br>
+                <label for="phone">Telephone:</label>
+                <input type="text" name="phone" id="phone">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="" id="email">  
+            </fieldset>
+       
+        
+        <fieldset>
+            <legend><b>Credentials</b></legend>
+            <label for="user">Username: </label>
+            <input type="text" name="user" id="user" required>
+            <br>
+            <label for="pass">Password: </label>
+            <input type="text" name="pass" id="pass">
+            <br>
+            <label for="againpass">Confirm password: </label>
+            <input type="text" name="againpass" id="againpass">
+        </fieldset>
+    </form>
+</table>
+    <div class="regBut">
+        <input type="submit" value="Login">
+        <input type="reset" value="Cancel">
+    </div>
+
+    
+</body>
+</html>

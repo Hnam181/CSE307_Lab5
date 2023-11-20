@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCon.css">
+    <title>Contact page</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h3>CONTACT US</h3>
+            <input type="text" name="" id="name" placeholder="Your name" required>
+            <input type="text" name="" id="email" placeholder="Email ID" required> 
+            <textarea name="" id="message" cols="30" rows="4"placeholder="How can we help you"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script>
+        function SaveContact (){
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if(!name || !email || !message){
+                alert('Please fill in all fields')
+                return;
+            }
+            document.getElementById("result").innertHTML = name +"<br>"+email+"<br>"+message;
+
+        }
+    </script>
+</body>
+
+</html>
